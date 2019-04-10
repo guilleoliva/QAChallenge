@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4520313275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Automate via the UI, the web scenario ,mentioned in User Story (Create Account) and include any validations you seem necessary",
+        "description": "",
+        "id": "qa-coding-challenge;automate-via-the-ui,-the-web-scenario-,mentioned-in-user-story-(create-account)-and-include-any-validations-you-seem-necessary",
+        "after": [
+          {
+            "result": {
+              "duration": 1037050521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11110234518,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Goalsetter Create Users page",
+            "match": {
+              "location": "StepDef.iNavigateToPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24608947,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Goalsetter Create Users page",
+            "match": {
+              "location": "StepDef.iAmOnCreateUsersPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39631566,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the Goalsetter icon on the top of the Page",
+            "match": {
+              "location": "StepDef.iShouldSeeTheGoalsetterIconOnTheTopOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131148539,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the FirstName \"MiguelG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MiguelG",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDef.iEnterTheFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91684226,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the LastName \"DiazO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DiazO",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDef.iEnterTheLastName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159089461,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the Email \"Guillermooliva7@yopmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guillermooliva7@yopmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDef.iEnterTheEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117785934,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the Password \"wgY6j55VR2AZAWf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wgY6j55VR2AZAWf",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDef.iEnterThePassword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14283166156,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Create Your Free Goalsetter Account button",
+            "match": {
+              "location": "StepDef.iClickOnCreateYourFreeGoalsetterAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15107383,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on Goalsetter Add Kids page",
+            "match": {
+              "location": "StepDef.iAmOnGoalsetterAddKidsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35406436,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the Goalsetter icon on the top of the Add Kids Page",
+            "match": {
+              "location": "StepDef.iShouldSeeTheGoalsetterIconOnTheTopOfTheAddKidsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119295193,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the Kid\u0027s Name \"Benjamin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Benjamin",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDef.iEnterTheKidSName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66618463,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on The stork is on the way",
+            "match": {
+              "location": "StepDef.iClickOnTheStorkIsOnTheWay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 941817574,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Continue button on Add Kids Page",
+            "match": {
+              "location": "StepDef.iClickOnContinueButtonOnPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24529871,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on Goalsetter List Kids page",
+            "match": {
+              "location": "StepDef.iAmOnGoalsetterListKidsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53121601,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see the Goalsetter icon on the top of the List Kids Page",
+            "match": {
+              "location": "StepDef.iShouldSeeTheGoalsetterIconOnTheTopOfTheListKidsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36246684,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see You´ve added Benjamin on page",
+            "match": {
+              "location": "StepDef.iShouldSeeYouVeAddedBenjaminOnPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@testingsteps"
+          }
+        ]
+      }
+    ],
+    "name": "QA Coding Challenge",
+    "description": "Verify Create Accounts and Login Features for Goalsetter",
+    "id": "qa-coding-challenge",
+    "keyword": "Feature",
+    "uri": "WebTesting.feature"
+  }
+]

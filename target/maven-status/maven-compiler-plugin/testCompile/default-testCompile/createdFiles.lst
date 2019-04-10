@@ -1,0 +1,10 @@
+Base\BaseUtil.class
+steps\StepDef$User.class
+pages\OfferPage.class
+pages\CredifyPage.class
+pages\LoginPage.class
+pages\MasterPage.class
+steps\StepDef.class
+steps\Hook.class
+pages\ProfilePage.class
+runner\TestRunner.class

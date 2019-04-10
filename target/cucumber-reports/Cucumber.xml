@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.806856">
+<testcase classname="QA Coding Challenge" name="Automate via the UI, the web scenario ,mentioned in User Story (Create Account) and include any validations you seem necessary" time="32.806856">
+<system-out><![CDATA[Given I navigate to the Goalsetter Create Users page........................passed
+And I am on Goalsetter Create Users page....................................passed
+And I should see the Goalsetter icon on the top of the Page.................passed
+When I enter the FirstName "MiguelG"........................................passed
+When I enter the LastName "DiazO"...........................................passed
+When I enter the Email "Guillermooliva7@yopmail.com"........................passed
+When I enter the Password "wgY6j55VR2AZAWf".................................passed
+And I click on Create Your Free Goalsetter Account button...................passed
+Then I am on Goalsetter Add Kids page.......................................passed
+And I should see the Goalsetter icon on the top of the Add Kids Page........passed
+When I enter the Kid's Name "Benjamin"......................................passed
+And I click on The stork is on the way......................................passed
+And I click on Continue button on Add Kids Page.............................passed
+Then I am on Goalsetter List Kids page......................................passed
+And I should see the Goalsetter icon on the top of the List Kids Page.......passed
+And I should see You´ve added Benjamin on page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

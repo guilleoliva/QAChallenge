@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="64.943" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gdiaz\Documents\QACodingChallenge"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gdiaz\Documents\QACodingChallenge"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gdiaz\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\opt\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\opt\apache-maven-3.6.0\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\python\Scripts\;C:\python\;C:\Users\gdiaz\AppData\Local\Microsoft\WindowsApps;C:\Users\gdiaz\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.3\bin;;Users\gdiaz\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\pyton3.6\Python 3.6 (64-bit);;."/>
+    <property name="maven.conf" value="C:\opt\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\opt\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\gdiaz"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="gdiaz"/>
+    <property name="java.class.path" value="C:\opt\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\opt\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="5.44"/>
+  <testcase name="feature" classname="runner.TestRunner" time="58.758">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div&quot;}&#10;  (Session info: chrome=73.0.3683.86)&#10;  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30.09 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;NTBK-CELLTRAK-0010&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62935}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\gdiaz\AppData\Local\Temp\scoped_dir36860_3044}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 08b0eb1b781bedf7055757745e869db2&#10;*** Element info: {Using=xpath, value=.//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'NTBK-CELLTRAK-0010', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62935}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\gdiaz\AppData\Local\Temp\scoped_dir36860_3044}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 08b0eb1b781bedf7055757745e869db2
+*** Element info: {Using=xpath, value=.//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'NTBK-CELLTRAK-0010', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62935}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\gdiaz\AppData\Local\Temp\scoped_dir36860_3044}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 08b0eb1b781bedf7055757745e869db2
+*** Element info: {Using=xpath, value=.//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div}
+</failure>
+    <system-out><![CDATA[Feature: QA Coding Challenge - III
+  Verify via the UI that as a borrower - you are seeing loan offers, upon filling the required form fields with valid inputs
+Opening the browser :chrome
+Navigate on Credify Page
+Automate via the UI, the web scenario mentioned in User Story, and include any validations you deem necessary
+Closing the browser
+
+  @testingsteps
+  Scenario: Automate via the UI, the web scenario mentioned in User Story, and include any validations you deem necessary &amp#27;[90m# WebTesting.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to the Credify page&amp#27;[0m                                                                                  &amp#27;[90m# StepDef.iNavigateToPage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the loan amount "&amp#27;[0m&amp#27;[32m&amp#27;[1m2,000&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                  &amp#27;[90m# StepDef.iEnterTheLoanAmount(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the loan purpose "&amp#27;[0m&amp#27;[32m&amp#27;[1mBusiness&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                              &amp#27;[90m# StepDef.iSelectTheLoanPurpose(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Check Your Rate button&amp#27;[0m                                                                                 &amp#27;[90m# StepDef.iClickOnCheckYourRateButton()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter my personal information on page&amp#27;[0m                                                                           &amp#27;[90m# StepDef.iEnterMyPersonalInformationOnPage(DataTable)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on check Rate to submit the information&amp#27;[0m                                                                   &amp#27;[90m# StepDef.iClickOnCheckRateToSubmitTheInformation()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI am on the Offer Page&amp#27;[0m                                                                                           &amp#27;[90m# StepDef.iAmOnTheOfferPage()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI store values of Loan Amount, APR, Loan Term and Loan Term&amp#27;[0m                                                       &amp#27;[90m# StepDef.iStoreValuesOfLoanAmountAPRLoanTermAndLoanTerm()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div"}
+        (Session info: chrome=73.0.3683.86)
+        (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 30.09 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+      System info: host: 'NTBK-CELLTRAK-0010', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62935}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\gdiaz\AppData\Local\Temp\scoped_dir36860_3044}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 08b0eb1b781bedf7055757745e869db2
+      *** Element info: {Using=xpath, value=.//html/body/div[1]/div/main/div/div[3]/div[1]/div/div[1]/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy19.getText(Unknown Source)
+      	at pages.OfferPage.getYourAPR(OfferPage.java:60)
+      	at steps.StepDef.iStoreValuesOfLoanAmountAPRLoanTermAndLoanTerm(StepDef.java:120)
+      	at ?.And I store values of Loan Amount, APR, Loan Term and Loan Term(WebTesting.feature:16)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Sign out on menu&amp#27;[0m                                                                                       &amp#27;[90m# StepDef.iClickOnSignOutOnMenu()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI navigate to the Credify login page&amp#27;[0m                                                                             &amp#27;[90m# StepDef.iNavigateToTheCredifyLoginPage()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter the following valid credentials&amp#27;[0m                                                                          &amp#27;[90m# StepDef.iEnterTheFollowingForLogin(DataTable)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on login Button&amp#27;[0m                                                                                           &amp#27;[90m# StepDef.iClickOnLoginButton()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI am on the Offer Page&amp#27;[0m                                                                                           &amp#27;[90m# StepDef.iAmOnTheOfferPage()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mValidate that Loan Amount, APR, Loan Term and Loan Term matches with the info stored previously&amp#27;[0m                   &amp#27;[90m# StepDef.validateThatLoanAmountAPRLoanTermAndLoanTermMatchesWithTheInfoStoredPreviously()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 34428
+Only local connections are allowed.
+Apr 09, 2019 6:26:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Apr 09, 2019 6:26:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
